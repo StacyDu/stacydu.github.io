@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet');
 
 
 html {
@@ -11,6 +12,19 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  color: #171F3F;
+  background: #E3E6EA;
+  font-family: 'Poppins', sans-serif;
+  padding: 32px 128px; 
+}
+
+.intro {
+  width: 781px;
+  &__text {
+    font-weight: 600;
+    font-size: 32px;
+  }
+  &__text--description {
+    font-size: 16px;
+  }
 }

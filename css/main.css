@@ -351,6 +351,9 @@ body {
 .link {
   color: #0593FB; }
 
+.projects-list {
+  list-style: none; }
+
 .skills__title {
   font-size: 36px;
   display: -webkit-box;
@@ -360,47 +363,50 @@ body {
       -ms-flex-align: center;
           align-items: center; }
 
-.skills-list__title::before {
-  content: '';
-  width: 80px;
-  height: 4px;
-  display: block;
-  background: #06C847;
-  border-radius: 8px;
-  margin-bottom: 1.5rem; }
-
-.skills-list__list {
+.skills-list {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  list-style-type: none;
-  padding: 0;
-  margin-top: calc(1.5rem + 4px);
-  -webkit-column-gap: 1.5rem;
-     -moz-column-gap: 1.5rem;
-          column-gap: 1.5rem; }
-
-.skills-list__item {
-  color: #797575;
-  padding: 11px 0 11px 30px;
-  position: relative; }
-  @media (max-width: 767px) {
-    .skills-list__item {
-      padding-left: 20px; } }
-  .skills-list__item::before {
-    position: absolute;
-    top: 10px;
-    left: 0;
+  -ms-grid-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr; }
+  .skills-list__title::before {
     content: '';
+    width: 80px;
+    height: 4px;
     display: block;
-    width: 18px;
-    height: 18px;
-    background: url("../assets/img/checkbox-green.svg"); }
+    background: #06C847;
+    border-radius: 8px;
+    margin-bottom: 1.5rem; }
+  .skills-list__list {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    list-style-type: none;
+    padding: 0;
+    margin-top: calc(1.5rem + 4px);
+    -webkit-column-gap: 1.5rem;
+       -moz-column-gap: 1.5rem;
+            column-gap: 1.5rem; }
+  .skills-list__item {
+    color: #797575;
+    padding: 11px 0 11px 30px;
+    position: relative; }
     @media (max-width: 767px) {
-      .skills-list__item::before {
-        width: 12px;
-        height: 12px;
-        top: 11px;
-        background-size: contain; } }
+      .skills-list__item {
+        padding-left: 20px; } }
+    .skills-list__item::before {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      content: '';
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: url("../assets/img/checkbox-green.svg"); }
+      @media (max-width: 767px) {
+        .skills-list__item::before {
+          width: 12px;
+          height: 12px;
+          top: 11px;
+          background-size: contain; } }
 
 /*# sourceMappingURL=main.css.map */

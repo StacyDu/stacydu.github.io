@@ -1,89 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>StacyDu portfolio</title>
-    <meta name="description" content="Description" />
 
-    <!-- Title -->
-    <meta property="og:title" content="StacyDu portfolio" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="StacyDu portfolio" />
-    <!-- full url with http(s) ie. https://stacydu.github.io/my-repo/ -->
-    <meta property="og:url" content="https://stacydu.github.io" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>StacyDu portfolio</title>
+  <meta name="description" content="Description" />
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- Title -->
+  <meta property="og:title" content="StacyDu portfolio" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="StacyDu portfolio" />
+  <!-- full url with http(s) ie. https://stacydu.github.io/my-repo/ -->
+  <meta property="og:url" content="https://stacydu.github.io" />
 
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <main class="main">
     <section class="intro">
-      <img src="//" alt="Stacy Du photo" class="intro__img">
-      <p class="intro__text">Hi 👋 ! My name is Ana and I am a starting Frontend Developer, currently working as a Project Manager.</p>
-      <p class="intro__text--description">Here you can check <a href="#skillset">my skills</a> what I am currently learning and the list of things I would like to learn. Also, please check the <a href="#projects">projects</a> prepared by my while practicing programming on my own. If you like my work, do not hesitate to <a href="#footer">contact me!😊 </a></p>
-      <a href = "mailto: dudinaanastasiia@gmail.com" class="intro__email">dudinaanastasiia@gmail.com</a>
+      <img src="../assets/img/stacydu.jpg" alt="Stacy Du photo" class="intro__img">
+      <h1 class="intro__text">Hi 👋 ! My name is Ana and I am a starting Frontend Developer, currently working as a
+        Project Manager.</h1>
+      <p class="intro__text--description">Here you can check <a href="#skiils" class="link">my skiilss</a> what I am
+        currently learning and the list of things I would like to learn. Also, please check the <a href="#projects"
+          class="link">projects</a> prepared by my while practicing programming on my own. If you like my work, do not
+        hesitate to <a href="#footer">contact me!</a>😊</p>
+      <a href="mailto: dudinaanastasiia@gmail.com" class="link intro__mail">dudinaanastasiia@gmail.com</a>
     </section>
 
-    <section class="skillset" id="skillset">
-      <h1 class="skillset__header">My skills</h1>
-      <p class="skillset__working">
-        <h1 class="skillset__title--working">Working skills</h1>
-        <ul class="skillset__list--working">
-          <li class="skillset__item--working">Semantic HTML 5</li>
-          <li class="skillset__item--working">CSS Grid</li>
-          <li class="skillset__item--working">Flexbox</li>
-          <li class="skillset__item--working">Bootstrap</li>
-          <li class="skillset__item--working">Markdown</li>
-          <li class="skillset__item--working">YAML</li>
-          <li class="skillset__item--working">Figma</li>
-          <li class="skillset__item--working">SASS</li>
-          <li class="skillset__item--working">JS: local storage</li>
-          <li class="skillset__item--working">JS: DOM manipulation</li>
-          <li class="skillset__item--working">Python basics</li>
+    <section class="skills" id="skills">
+      <h2 class="skills__title">My skills</h2>
+      <section class="skills-list">
+        <h1 class="skills-list__title">Working skills</h1>
+        <ul class="skills-list__list">
+          <li class="skills-list__item">Semantic HTML 5</li>
+          <li class="skills-list__item">CSS Grid</li>
+          <li class="skills-list__item">Flexbox</li>
+          <li class="skills-list__item">Bootstrap</li>
+          <li class="skills-list__item">Markdown</li>
+          <li class="skills-list__item">YAML</li>
+          <li class="skills-list__item">Figma</li>
+          <li class="skills-list__item">SASS</li>
+          <li class="skills-list__item">JS: local storage</li>
+          <li class="skills-list__item">JS: DOM manipulation</li>
+          <li class="skills-list__item">Python basics</li>
         </ul>
-      </p>
-      <p class="skillset__learning">
-        <h1 class="skillset__title--learning">Learning skills</h1>
-        <ul class="skillset__list--learning">
-          <li class="skillset__item--learning">JS ES6</li>
-          <li class="skillset__item--learning">CSS Animations</li>
-          <li class="skillset__item--learning">Working with API</li>
-          <li class="skillset__item--learning">NPM scripts</li>
-          <li class="skillset__item--learning">Git</li>
-          <li class="skillset__item--learning">Accessbility</li>
-          <li class="skillset__item--learning">Django</li>
-      </p>
-      <p class="skillset__wanttolearn">
-        <h1 class="skillset__title--wanttolearn">Want to learn skills</h1>
-        <ul class="skillset__list--wanttolearn">
-          <li class="skillset__item--wanttolearn">React.js</li>
-          <li class="skillset__item--wanttolearn">Node.js</li>
-          <li class="skillset__item--wanttolearn">Typescript</li>
-          <li class="skillset__item--wanttolearn">PHP</li>
+      </section>
+      <section class="skills-list skills-list--violet">
+        <h2 class="skills-list__title">Learning skills</h2>
+        <ul class="skills-list__list">
+          <li class="skills-list__item">JS ES6</li>
+          <li class="skills-list__item">CSS Animations</li>
+          <li class="skills-list__item">Working with API</li>
+          <li class="skills-list__item">NPM scripts</li>
+          <li class="skills-list__item">Git</li>
+          <li class="skills-list__item">Accessbility</li>
+          <li class="skills-list__item">Django</li>
         </ul>
-      </p>
+      </section>
+      <section class="skills-list skills-list--blue">
+        <h2 class="skills-list__title">Want to learn skills</h2>
+        <ul class="skills-list__list">
+          <li class="skills-list__item">React.js</li>
+          <li class="skills-list__item">Node.js</li>
+          <li class="skills-list__item">Typescript</li>
+          <li class="skills-list__item">PHP</li>
+        </ul>
+      </section>
     </section>
 
     <section class="projects" id="projects">
-      <h1 class="projects__title">Recent projects</h1>
-      <p class="projects__description">Some text</p>
-      <ul class="projects__list projects__list--js">
-        <!--JS code goes here-->
-      </ul>
+      <h2 class="projects__title">Recent projects</h2>
+      <div class="container">
+        <p class="projects__description">I started learning programming in 2018. Since then, I’ve built some interesting
+          projects for myself, my friends and for thecourses puerposes. Here’s the list of the things I’ve done so far.
+          Stay tuned for some more cool things! 👍 </p>
+        <ul class="projects__list projects__list--js">
+          <!--JS code goes here-->
+        </ul>
+      </div>
     </section>
 
-    <footer class="footer" id="footer">
-      <h1 class="footer__title">Contact me</h1>
-      <p class="footer_description">Some text</p>
-      <ul class="footer_iconlist">
-        <li class="fb"> fb icon</li>
-        <li class="linkedin">linkedin title</li>
-        <li class="instagram">instagram</li>
-      </ul>
-      <p class="email">email</p>
+    <footer class="contact" id="contact">
+      <h2 class="contact__title">Contact me</h2>
+      <div class="container">
+        <p class="contact__description">If you have some cool projects comming and need someone who is ready to learn and work hard, should talk!</p>
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__icon" src="assets/img/icon-fb.svg" alt="facebook"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__icon" src="assets/img/icon-github.svg" alt="github"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__icon" src="assets/img/icon-instagram.svg" alt="instagram"></a>
+          </li>
+        </ul>
+        <a class="contact__mail" href="mailto:maciek@cotenfrontend.pl">maciek@cotenfrontend.pl</a>
+      </div>
     </footer>
-    <script src="js/main.js"></script>
-  </body>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
